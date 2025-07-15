@@ -31,7 +31,7 @@ function MessageInput({ onSendMessage, isSending, token }) {
         const formData = new FormData();
         formData.append('audio', audioBlob, 'recording.webm');
 
-        fetch('https://82363d7dd788.ngrok-free.app/api/v1/upload-audio/', {
+        fetch('https://cunning-model-puma.ngrok-free.app/api/v1/upload-audio/', {
           method: 'POST',
           body: formData,
         })

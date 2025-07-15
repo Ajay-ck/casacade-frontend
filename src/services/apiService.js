@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Fall back to FastAPI dev server if no env var is set
 const API_BASE_URL =
-  process.env.REACT_APP_API_BASE_URL || "https://82363d7dd788.ngrok-free.app/api/v1";
+  process.env.REACT_APP_API_BASE_URL || "https://cunning-model-puma.ngrok-free.app/api/v1";
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,

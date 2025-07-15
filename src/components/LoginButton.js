@@ -4,7 +4,7 @@ import GoogleButton from "react-google-button";
 export default function LoginButton() {
   const handleLogin = () => {
     // Let the browser handle the whole redirect chain
-    window.location.href = "https://82363d7dd788.ngrok-free.app/auth/login";
+    window.location.href = "https://cunning-model-puma.ngrok-free.app/auth/login";
   };
 
   return (
